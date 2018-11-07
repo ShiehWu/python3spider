@@ -1,3 +1,5 @@
 /venv
 
 /PandaTvSpider/results.txt
+
+Pipfile.lock
