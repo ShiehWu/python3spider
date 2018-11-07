@@ -1,6 +1,6 @@
 # python3spider
 
-**执行任何脚本前，先执行 **
+**执行任何脚本前，先执行**
 
 ```
 pipenv install
