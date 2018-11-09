@@ -1,5 +1,9 @@
-/venv
-
-/PandaTvSpider/results.txt
-
+# pipenv:
 Pipfile.lock
+
+.idea/
+
+# Python:
+*.py[cod]
+
+results.txt
