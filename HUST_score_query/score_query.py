@@ -13,7 +13,7 @@ login_url = 'http://hubs.hust.edu.cn/hub.jsp'
 query_url = 'http://hubs.hust.edu.cn/aam/score/QueryScoreByStudent_queryResults.action'
 
 login_headers = {
-    'Cookie': 'username=U201613630; JSESSIONID=0000_kJmtVeXa9ZG2ThuzQOjGdW:166nacc3t',
+    'Cookie': 'username=U201613630; JSESSIONID=0000uAXA0vofX1ALQCp2HHp7CCA:166nacean',
     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
 }
 
@@ -74,3 +74,40 @@ with open('result.txt', 'a') as f:
         f.write('\n')
 
 print("查询完成！")
+
+
+# import requests
+
+
+# headers = {
+#     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+#     'Accept-Encoding': 'gzip, deflate',
+#     'Accept-Language': 'zh-CN,zh;q=0.9',
+#     'Cache-Control': 'max-age=0',
+#     'Connection': 'keep-alive',
+#     'Content-Length': '258',
+#     'Content-Type': 'application/x-www-form-urlencoded',
+#     'Host': 'hubs.hust.edu.cn',
+#     'Origin': 'http://hub.hust.edu.cn',
+#     'Referer': 'http://hub.hust.edu.cn/hustpass.action',
+#     'Upgrade-Insecure-Requests': '1',
+#     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+# }
+
+
+# post_data = {
+#     'usertype': 'xs',
+#     'username': 'U201613630',
+#     'password': 'c70cdef4757116bba1f8a6430ea7f309',
+#     'randomId': '1541815337281',
+#     'url': 'http://hubs.hust.edu.cn/',
+#     'key1': '159365',
+#     'key2': 'eee507ab83eaea4dc379d1c0c8992454',
+#     'F_App': 'From kslgin. App:app66.dc.hust.edu.cn|app661|IP:10.10.10.245'
+# }
+
+# url = 'http://hubs.hust.edu.cn/hublogin.action'
+
+# r = requests.post(url, data=post_data, headers=headers)
+# print(r.cookies)
+# print(r.headers)
